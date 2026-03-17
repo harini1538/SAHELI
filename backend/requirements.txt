@@ -1,0 +1,11 @@
+﻿Flask
+flask-cors
+flask-sqlalchemy
+flask-bcrypt
+authlib
+python-dotenv
+PyJWT
+groq
+gTTS
+flask-socketio
+gunicorn
