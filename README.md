@@ -89,6 +89,8 @@ Run the Application
 Open your browser and navigate to:
 
 http://localhost:5173
+
+
 Environment Variables
 
 Create a .env file in the backend directory:
