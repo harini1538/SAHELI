@@ -1,73 +1,129 @@
-# Welcome to your Lovable project
+Saheli – Women Empowerment Platform
+Project Link
 
-## Project info
+Live URL: https://youtu.be/yo6FoSgSLKo?si=2LcY-VPs9QLOnDEK
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Project Overview
 
-## How can I edit this code?
+Saheli is a voice-enabled digital platform designed to empower women by providing access to opportunities, skill development resources, safety features, and community support.
 
-There are several ways of editing your application.
+The platform primarily focuses on women in rural and semi-urban areas who face challenges in accessing information, digital tools, and support systems. By combining AI assistance with a simple and accessible interface, Saheli enables users to learn, grow, and become independent.
 
-**Use Lovable**
+Problem Statement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Many women encounter the following challenges:
 
-Changes made via Lovable will be committed automatically to this repo.
+Lack of awareness about government schemes and job opportunities
+Limited digital literacy and confidence in using technology
+Absence of safe and reliable support systems
+Difficulty accessing financial knowledge and entrepreneurial guidance
 
-**Use your preferred IDE**
+Saheli addresses these issues through a centralized, easy-to-use, and voice-first platform.
+Core Features
+AI Voice Assistant
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The platform includes an intelligent voice-enabled assistant designed to make navigation simple and accessible for all users, including those with limited literacy. It supports regional languages, allowing users to interact naturally through speech. The assistant provides real-time guidance on government schemes, skill development opportunities, safety resources, and general platform usage, ensuring users can access information without needing advanced technical knowledge.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Digital Literacy Simulator
 
-Follow these steps:
+This module is designed to help first-time users become comfortable with smartphones and the internet. It offers interactive, step-by-step learning experiences that simulate real-world digital tasks such as using apps, browsing, and online communication. The interface is simplified and intuitive, enabling users to build confidence in using digital tools independently.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Government Scheme Hub
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The Government Scheme Hub provides a centralized repository of verified government programs relevant to women. Each scheme is presented with simplified explanations to improve understanding, along with eligibility criteria and direct application links. This feature reduces the gap between awareness and access, making it easier for users to benefit from available opportunities.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Skill Development Hub
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+This module offers curated learning resources aimed at improving employability and encouraging entrepreneurship. It includes courses and training materials related to job readiness, freelancing, and small business development. Structured learning paths help users progress systematically, enabling them to acquire practical skills and generate income opportunities.
+
+Community Support System
+
+Saheli provides a safe and moderated community space where users can connect, share experiences, and support each other. The platform encourages peer learning, collaboration, and emotional support while maintaining user safety through moderation. This feature helps build a sense of belonging and reduces isolation.
+
+Safety and Emergency Module
+
+The safety module is designed to ensure user security through quick and reliable access to emergency features. It includes an SOS alert system that can share the user’s location with trusted contacts, along with access to important helplines. The module also provides safety awareness resources, helping users stay informed and prepared in critical situations.
+
+Business Starter Toolkit
+
+This feature supports women who wish to start and manage their own businesses. It provides step-by-step guidance on setting up small enterprises, including planning, budgeting, and basic financial management. The toolkit is designed to simplify the process of entrepreneurship and encourage self-employment.
+
+Confidence Tracker
+
+The Confidence Tracker monitors user progress across different activities within the platform. It highlights achievements, tracks learning milestones, and motivates users to continue improving. By providing visible indicators of growth, this feature helps build self-confidence and encourages long-term engagement.
+
+System Architecture
+User (Voice/Text)
+        ↓
+Frontend (React)
+        ↓
+Backend (Flask / FastAPI)
+        ↓
+AI Assistant (Groq API)
+        ↓
+Database (MySQL / Firebase)
+        ↓
+External Services (Govt APIs, Maps, Speech APIs)
+
+Technology Stack
+Layer	Technology: Frontend	React, Tailwind CSS
+Backend	: Flask / FastAPI , AI / LLM	Groq API , Speech	, SpeechRecognition, gTTS
+Database:	MySQL / Firebase
+
+Installation and Setup
+Prerequisites
+Node.js (v16 or higher)
+npm or yarn
+Python 3.12
+
+Backend Setup
+cd backend
+pip install -r requirements.txt
+python app.py
+Frontend Setup
+cd frontend
+npm install
 npm run dev
-```
+Run the Application
 
-**Edit a file directly in GitHub**
+Open your browser and navigate to:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+http://localhost:5173
+Environment Variables
 
-**Use GitHub Codespaces**
+Create a .env file in the backend directory:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+GROQ_API_KEY=*****
+Usage
+Launch the application in a browser
+Use voice or text input to interact with the assistant
+Navigate through features such as schemes, skills, and safety tools
+Deployment
 
-## What technologies are used for this project?
+Frontend: Vercel or Netlify
+Backend: Render or Railway
 
-This project is built with:
+Future Enhancements
+Multi-language support expansion
+AI-based personalized recommendations
+Offline functionality for low-connectivity areas
+Mentor–mentee system
+Integration with real-time government databases
+Contribution
+Fork the repository
+Create a feature branch
+Commit your changes
+Push to your branch
+Submit a pull request
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+License
+This project is licensed under the MIT License.
 
-## How can I deploy this project?
+Author
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Harini M
+Full Stack Developer
+AI Enthusiast
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Vision
+Empowering women through accessible technology, knowledge, and support.
